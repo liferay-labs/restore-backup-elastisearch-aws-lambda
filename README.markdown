@@ -4,9 +4,9 @@
 
 ```json
 {
- "host": "endpoint of the aws elasticsearch domain",
- "bucket": "Snapshot repository name",
- "backup": "Backup/snapshot Id"
+ "host": "Endpoint of the aws elasticsearch domain",
+ "bucket": "Bucket repository name",
+ "backup": "Backup Id"
 }
 ```
 
@@ -19,3 +19,8 @@ Restore Backup DEV
   "backup": "20180622112115"
 }
 ```
+
+Actions performed in Elasticsearch:
+
+- [Snapshot And Restore](https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-snapshots.html#modules-snapshots)
+

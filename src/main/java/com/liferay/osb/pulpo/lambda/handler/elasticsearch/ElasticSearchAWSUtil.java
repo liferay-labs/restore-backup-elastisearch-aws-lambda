@@ -51,7 +51,8 @@ public class ElasticSearchAWSUtil {
 	 *
 	 * @param request input request
 	 * @param logger lambda logger
-	 * @see <a href='https://www.elastic.co/guide/en/elasticsearch/reference/current/cat-snapshots.html'>cat-snapshots</a>
+	 * @see <a href='https://www.elastic.co/guide/en/elasticsearch/reference/current/cat-snapshots.html'>CAT Snapshots</a>
+	 * @see <a href='https://www.elastic.co/guide/en/elasticsearch/reference/current/modules-snapshots.html#modules-snapshots'>Snapshot And Restore</a>
 	 * @return String containing the result of the request
 	 */
 	public static String restoreBackup(
